@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+<<<<<<< HEAD
 import Post from './Components/Post';
+=======
+import Post from './Components/post';
+
+>>>>>>> ac67ed0a7fa5594606afcdd9e0d3044ea72fc3ed
 function App() {
   const [data, setdata] = useState([]);
   const fetchdata=()=>{
