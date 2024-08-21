@@ -1,8 +1,7 @@
 
-import Navabar from './components/Navabar'
-import Privatepage from './components/Privatepage'
 import './App.css'
-
+import Navabar from './Components/Navabar'
+import AllRoutes from './routes/AllRoutes'
 
 function App() {
  
@@ -10,7 +9,7 @@ function App() {
   return (
     <>
       <Navabar/>
-       
+      <AllRoutes/>
     </>
   )
 }
