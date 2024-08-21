@@ -2,8 +2,7 @@ import React, { useContext, useState } from 'react';
 import { themecontext } from '../Context/Themecontex';
 import { authcontex } from '../Context/Authcontex';
 
-
- export function  Navbar() {
+function Navbar() {
   const {theme}=useContext(themecontext)
   const {isauth ,loginfuction,logoutfuction}=useContext(authcontex)
 
@@ -31,11 +30,13 @@ import { authcontex } from '../Context/Authcontex';
     <div style={navbarStyle}>
       <h1 style={titleStyle}>Navbar</h1>
       <h3 style={subtitleStyle}>The Theme is Light</h3>
-       <h2>user is login:{isauth ?"yes":"no"}</h2> 
-      <button onClick={loginfuction} >login</button>
-      <button onClick={logoutfuction} >logout</button>
+       <h2>User Is Login:{isauth ?"Yes":"No"}</h2> 
+      <div style={{padding:"20px"}}>
+      <button style={{backgroundColor:"red"}} onClick={loginfuction} >Login</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button style={{backgroundColor:"red"}} onClick={logoutfuction} >Logout</button>
+      </div>
     </div>
   );
 }
 
-
+export default Navbar;

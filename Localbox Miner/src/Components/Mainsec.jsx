@@ -24,4 +24,4 @@ function Mainsec() {
   );
 }
 
-export default Mainsec
+export default Mainsec;
