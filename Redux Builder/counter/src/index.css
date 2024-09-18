@@ -6,13 +6,13 @@
   align-items: center;
   padding: 20px;
   margin: 20px auto;
-  border: 2px solid #ddd;
+  border: 2px solid #f7f4f4;
   border-radius: 10px;
   height: 400px;
   width: 500px;
-  background-color:#EBD3F8;
+  background-color:white;
   
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 15px rgba(95, 92, 92, 0.1);
   transition: all 0.3s ease;
 }
 
@@ -34,7 +34,7 @@ button {
   cursor: pointer;
   font-size: 16px;
  
-  color: rgb(99, 145, 167);
+  color: rgb(9, 84, 119);
   
 }
 
@@ -46,21 +46,21 @@ button:hover {
 .counter-value h1 {
   font-size: 48px;
   margin: 0;
-  color: rgb(4, 14, 69);
+  color: rgb(119, 119, 119);
   margin-top: 30%;
 }
 
 /* Light theme styling */
 .light_theme {
   
-  background-color: #7dd7a8;
+  background-color:white;
   height: 400px;
   width: 500px;
 }
 
 /* Dark theme styling */
 .dark_theme {
-  background-color: #64c853;
+  background-color: #030603;
   height: 400px;
   width: 500px;
 }
